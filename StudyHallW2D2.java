@@ -1,6 +1,7 @@
 package studyHallW2D2;
 
 public class StudyHallW2D2 {
+	/* This code is created by Dr. Lynn Robert Carter and modified by Vaibhav */
 	
 	/**********************************************************************************************
 	 * The following are Attributes of the class StudyHallW2D2
