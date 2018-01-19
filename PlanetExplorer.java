@@ -2,6 +2,8 @@ package planetExplorer;
 
 import java.text.DecimalFormat;
 
+/* This program is coded by Dr.Lynn Robert Carter and modified by Vaibhav. */
+
 /**
  * <p>
  * Title: Mainline - Week 2 Day 4 Study Hall Exercise
