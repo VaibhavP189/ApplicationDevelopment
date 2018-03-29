@@ -4,8 +4,10 @@ public class IterativeSearch2 {
 	private static String[] elements = {"Vaibhav","Vaibhav M.","Jaskirat","Prince","Sukrut","Sumit S."};
 	
 	public static int iterativeSearch (String[] elements2, String goal) {
+		
+		Arrays.sort(elements);
 		int ndx = 0;
-		while (ndx< elements.length && elements[ndx].equals(goal)) ndx++;
+		while (ndx< elements.length && elements[ndx]!=(goal)) ndx++;
 		if (ndx >= elements.length) return -1;
 		if (goal.matches(elements[ndx])) return ndx;
 		else return -1;
