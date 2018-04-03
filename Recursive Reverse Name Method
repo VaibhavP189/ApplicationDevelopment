@@ -1,0 +1,31 @@
+package W13_C1_C2_Recursive;
+
+public class Program1 {
+	
+	 String str = "Hello";
+
+	private static String reverse(String str) {
+
+ 
+		if (str.length() <= 0) return "";
+
+
+		return reverseString(str, 0);
+
+
+		}
+
+	private static String reverseString(String str, int ndx) {
+
+
+		if (str.length() <= ndx) return "";
+
+
+		return reverseString(str, ndx+1) + str.charAt(ndx);
+
+
+		}
+	public static void main(String [] args) {
+		System.out.println("The Result:" +reverse("Puneet"));
+	}
+}
