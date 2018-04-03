@@ -26,6 +26,6 @@ public class Program1 {
 
 		}
 	public static void main(String [] args) {
-		System.out.println("The Result:" +reverse("Puneet"));
+		System.out.println("The Result:" +reverse("Vaibhav"));
 	}
 }
